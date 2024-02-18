@@ -15,6 +15,11 @@ header {
     font-weight: 400;
     line-height: 166.667%;
     letter-spacing: 0.6px;
+    cursor: pointer;
+    a {
+      text-decoration: none;
+      color: #fff;
+    }
   }
   .nav_list {
     display: flex;
@@ -28,6 +33,7 @@ header {
       font-weight: 400;
       line-height: 250%;
       margin-right: 30px;
+      cursor: pointer;
       img {
         width: 28px;
         height: 28px;
