@@ -8,3 +8,9 @@ $(document).ready(function () {
     autoplaySpeed: 2000,
   })
 })
+const seasonRadio = document.getElementsByClassName('seasonRadio')
+function sort (seasonRadio) {
+  if (seasonRadio.value === Winter) {
+    
+  }
+}
