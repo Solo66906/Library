@@ -87,6 +87,22 @@ $solid-neutral-950: #0C0C0E;
   line-height: 200%;
   margin-bottom: 20px;
 }
+.btn {
+  font-family: Inter;
+  font-size: 10px;
+  font-weight: 700;
+  line-height: 12px;
+  letter-spacing: 1px;
+  text-align: center;
+  
+  border: solid 1px $solid-neutral-950;
+  background: $solid-white;
+
+  padding: 9px 15.5px;
+}
+.btn:hover {
+  background: $solid-stone-400;
+}
 header {
   padding: 20px 20px;
   justify-content: space-between;
@@ -217,6 +233,95 @@ header {
     width: 600px;
     height: 400px;
   }
+}
+.cards {
+  .cardsHeading {
+    font-family: Inter;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0.02em;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  form {
+    padding: 20px 20px 30px 20px;
+    border: solid 3px $solid-stone-400;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .CardLibraby {
+      display: flex;
+      flex-direction: column;
+      background: $solid-stone-400;
+      padding: 20px 20px 0px 20px;
+      .headingSerch {
+        font-family: Forum;
+        font-size: 30px;
+        font-weight: 400;
+        line-height: 50px;
+        letter-spacing: 0.02em;
+        margin-bottom: 20px;
+      }
+      input {
+        width: 520px;
+        height: 66px;
+        border-radius: 10px;
+        border: 0px;
+        margin-bottom: 25px;
+        padding: 8px 0px 8px 20px;
+
+        font-family: Forum;
+        font-size: 30px;
+        font-weight: 400;
+        line-height: 50px;
+        letter-spacing: 0.02em;
+        text-align: left;
+      }
+    }
+  }
+}
+.get {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  .heading {
+    font-family: Forum;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0.02em;
+    text-align: right;
+
+    margin-bottom: 35px;
+  }
+  p {
+    width: 450px;
+
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 0.02em;
+    text-align: right;
+
+    margin-bottom: 35px;
+  }
+  button {
+    margin-left: 20px;
+  }
+}
+.checkBtn {
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 1px;
+  text-align: center;
+
+  padding: 10px 40px;
+
+  margin-top: 20px;
 }
 .footer {
   background: $solid-black;
